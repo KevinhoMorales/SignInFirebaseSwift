@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2AE64CAE246A5A39007F3332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64CAD246A5A39007F3332 /* AppDelegate.swift */; };
 		2AE64CB0246A5A39007F3332 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64CAF246A5A39007F3332 /* SceneDelegate.swift */; };
-		2AE64CB2246A5A39007F3332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64CB1246A5A39007F3332 /* ViewController.swift */; };
+		2AE64CB2246A5A39007F3332 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64CB1246A5A39007F3332 /* SignIn.swift */; };
 		2AE64CB5246A5A39007F3332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE64CB3246A5A39007F3332 /* Main.storyboard */; };
 		2AE64CB7246A5A3C007F3332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE64CB6246A5A3C007F3332 /* Assets.xcassets */; };
 		2AE64CBA246A5A3C007F3332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE64CB8246A5A3C007F3332 /* LaunchScreen.storyboard */; };
+		2AE64CC3246A6506007F3332 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE64CC2246A6506007F3332 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2AE64CAA246A5A39007F3332 /* Sign In by Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In by Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE64CAA246A5A39007F3332 /* Sign In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE64CAD246A5A39007F3332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE64CAF246A5A39007F3332 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AE64CB1246A5A39007F3332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE64CB1246A5A39007F3332 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		2AE64CB4246A5A39007F3332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE64CB6246A5A3C007F3332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE64CB9246A5A3C007F3332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE64CBB246A5A3C007F3332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE64CC2246A6506007F3332 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		2AE64CAB246A5A39007F3332 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AE64CAA246A5A39007F3332 /* Sign In by Firebase.app */,
+				2AE64CAA246A5A39007F3332 /* Sign In.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +60,8 @@
 			children = (
 				2AE64CAD246A5A39007F3332 /* AppDelegate.swift */,
 				2AE64CAF246A5A39007F3332 /* SceneDelegate.swift */,
-				2AE64CB1246A5A39007F3332 /* ViewController.swift */,
+				2AE64CB1246A5A39007F3332 /* SignIn.swift */,
+				2AE64CC2246A6506007F3332 /* User.swift */,
 				2AE64CB3246A5A39007F3332 /* Main.storyboard */,
 				2AE64CB6246A5A3C007F3332 /* Assets.xcassets */,
 				2AE64CB8246A5A3C007F3332 /* LaunchScreen.storyboard */,
@@ -84,7 +87,7 @@
 			);
 			name = "Sign In by Firebase";
 			productName = "Sign In by Firebase";
-			productReference = 2AE64CAA246A5A39007F3332 /* Sign In by Firebase.app */;
+			productReference = 2AE64CAA246A5A39007F3332 /* Sign In.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE64CB2246A5A39007F3332 /* ViewController.swift in Sources */,
+				2AE64CC3246A6506007F3332 /* User.swift in Sources */,
+				2AE64CB2246A5A39007F3332 /* SignIn.swift in Sources */,
 				2AE64CAE246A5A39007F3332 /* AppDelegate.swift in Sources */,
 				2AE64CB0246A5A39007F3332 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.signinfirebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sign In";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,7 +316,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinhomorales.signinfirebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sign In";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
